@@ -1,8 +1,6 @@
 Git is a version control system.
 Git is free software.
 Git has a mutable index called stage.
-
-Git has a mutable index called stage.
 Git tracks changes of files.
 
 1.
@@ -34,3 +32,5 @@ HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历�
 git checkout -- readme.txt
 git checkout -- file可以丢弃工作区的修改：
 2.假如已经add了，那么可以用命令git reset HEAD file可以把暂存区的修改撤销掉（unstage）
+ git reset HEAD readme.txt
+ git checkout -- readme.txt
